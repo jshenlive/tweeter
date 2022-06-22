@@ -1,7 +1,6 @@
-header{
-  height: 500px;
-}
+
 .heading{
+  height: 500px;
   display: grid;
   width:100vw;
   background-color: #e68a19;

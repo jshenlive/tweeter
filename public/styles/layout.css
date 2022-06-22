@@ -23,18 +23,16 @@ body {
 }
 
 main{
+
+}
+.container{
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: auto;
   position: relative;
   z-index: 3;
   width:90vw;
-  /* justify-content: center; */
-}
-.container{
-
-
-
-
 }
 
 /*
