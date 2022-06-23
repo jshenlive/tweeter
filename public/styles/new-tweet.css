@@ -1,10 +1,26 @@
-.container {
+.container{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+}
+.fa-angles-down:hover{
+  font-size: 2rem;
+  border-radius: 80%;
+  border: 1px solid rgb(250, 139, 2);
+  margin-top: 5px;
 }
 
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 label{
+  margin-left: 35px;
+  align-self: flex-start;
   font-weight: bold;
   font-style: italic;
   color: rgb(166, 116, 37);
@@ -13,11 +29,12 @@ label{
 #compose{
   display: flex;
   justify-content: center;
+  height:25px;
 }
 
 #tweet-text{
   height:45px;
-  width: 90vw;
+  width: 90%;
   border:none;
   border-bottom: 4px solid #4056a1;
   outline:1px;
@@ -26,6 +43,7 @@ label{
 }
 .tweetbtnline{
   display:flex;
+  width:90%;
   font-family: Bungee, sans-serif;
   justify-content: space-between;
 }
@@ -36,3 +54,27 @@ button{
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.error{
+  display:flex;
+  justify-content: center;
+  height:50px
+}
+
+.error-message{
+  border:red solid;
+  padding:3px;
+  color: red;
+  height:35px;
+}
+
+#error-message1{
+  display: none;
+  position: absolute;
+}
+
+#error-message2{
+  display: none;
+}
+
+

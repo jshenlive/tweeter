@@ -1,34 +1,74 @@
-
-.tweet-data{
-  height:100vh;
+#user-name {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
-.tweet{
+
+#tweets-container{
+  width:90%;
+  align-self: center;
+}
+
+.tweet {
   display: flex;
   flex-direction: column;
-  /* align-items: flex-end; */
   border: solid 4px gray;
   margin-top: 50px;
-  height:200px;
+  height: 220px;
   padding: 10px;
   justify-content: space-evenly;
+ 
 }
-article header{
+.tweet:hover {
+  box-shadow: 5px 5px 5px orange;
+}
+
+.fa-solid:hover{
+  color:red;
+}
+
+article header {
   display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
 }
-.message{
+
+.message {
   display: flex;
   width: 100%;
   border-bottom: solid 3px grey;
   margin-top: 10px;
-  height:60px;
-  padding:10px;
-  /* align-self: flex-end; */
+  height: 100px;
+  padding: 10px;
+  align-items: flex-end;
+  overflow-wrap: anywhere;
 }
-article footer{
+article footer {
   display: flex;
   flex-direction: row;
-  /* align-self: flex-end; */
-  justify-content: space-between; 
+  justify-content: space-between;
   font-size: medium;
   padding: 10px;
+}
+
+/* When screen width is larger than 768px */
+@media screen and (min-width:768px){
+  .profile{
+    width: 40vw;
+    position: fixed;
+  }
+  .new-tweet{
+    margin-top: 150px;
+  }
+  .new-tweet{
+    width: 60%;
+    align-self: flex-end;
+  }
+  #tweets-container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 56%;
+    margin-right: 2%;
+  }
 }

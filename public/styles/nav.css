@@ -27,7 +27,6 @@ nav {
   align-self: center;
   margin-right: 1.5em;
   flex-direction: column;
-  /* align-content: center; */
 }
 .right {
   display: flex;

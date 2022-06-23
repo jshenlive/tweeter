@@ -1,8 +1,8 @@
 
-.heading{
+.profile{
   height: 500px;
   display: grid;
-  width:100vw;
+  width:100%;
   background-color: #e68a19;
   background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
@@ -17,19 +17,14 @@
   justify-content: center;
 }
 .ava{
-  /* display: flex; */
-  /* align-self: center; */
   z-index: 2;
   margin-top: 110px;
   grid-area: ava;
 
 }
 .name{
-  /* display: flex; */
-  /* height: 100px; */
   z-index: 3;
   justify-self: center;
   align-self: flex-start;
-  /* align-self: flex-start; */
   grid-area: name;
 }
