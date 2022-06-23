@@ -80,6 +80,6 @@ $(document).ready(function () {
     }
   })
 
-  renderTweets(data);
+  loadtweets();
 })
 

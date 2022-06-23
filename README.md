@@ -2,17 +2,30 @@
 
 Tweeter is a simple, single-page Twitter clone.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+The purpose of this project was to demonstrate ability in use of HTML, CSS, Javascript, JQUERY and AJAX.
+
+## Final Product
+
+!["screenshot on main"](https://github.com/jshenlive/tweeter/blob/master/screenshots/main.png)
+!["screenshot on main-mobile"](https://github.com/jshenlive/tweeter/blob/master/screenshots/main_mobile.png)
+!["screenshot on error message"](https://github.com/jshenlive/tweeter/blob/master/screenshots/error.png)
+
 
 ## Getting Started
 
-1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
-2. Clone your repository onto your local device.
+1. Fork and Clone this repository onto your local device.
 3. Install dependencies using the `npm install` command.
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
 4. Go to <http://localhost:8080/> in your browser.
+
+Note: npm run local uses nodemon.
 
 ## Dependencies
 
 - Express
 - Node 5.10.x or above
+- body-Parser
+- chance
+- md5
+- nodemon
+
